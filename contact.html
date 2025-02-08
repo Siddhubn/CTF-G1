@@ -1,0 +1,62 @@
+<!-- contact.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - DeepSolutions</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="team.html">Team</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="contact-content">
+            <h1>Contact Us</h1>
+            <p class="fade-in">We’d love to hear from you. Get in touch with us today!</p>
+            <div class="contact-details">
+                <h2>Our Contact Information</h2>
+                <p><strong>Address:</strong> 123 Tech Street, Innovation City, USA</p>
+                <p><strong>Phone:</strong> +1 (555) 123-4567</p>
+                <p><strong>Business Hours:</strong> Monday - Friday, 9:00 AM - 6:00 PM</p>
+            </div>
+            <div class="contact-form">
+                <h2>Send Us a Message</h2>
+                <form>
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea placeholder="Your Message" required></textarea>
+                    <br>
+                    <button onclick="myFunction()" type="submit">Submit</button><div id="myDIV">* Marked as Mandatory.</div>
+                </form>
+            </div>
+            <div class="location-map">
+                <h2>Find Us Here</h2>
+                <p>Our office is located in the heart of the city. Visit us anytime!</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Deep Solutions. Since 2025</p>
+    </footer>
+    <script>
+    function myFunction() {
+        var x = document.getElementById("myDIV");
+        if (x.innerHTML === "* Marked as Mandatory.") {
+          x.innerHTML = "127478";
+        }
+      }
+    </script>
+</body>
+</html>
