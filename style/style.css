@@ -137,7 +137,6 @@ footer {
 .team-member{
     margin-top:15px;
     padding:0.8rem;
-    padding: secret-code(10165);
     border:4px dashed aliceblue;
 }
 
@@ -727,6 +726,8 @@ footer {
     height: 200px;
     padding:5px;
     border: 1px solid #f1f1f1;
+    padding: secret-code(10165);
+    padding: Only_those_who_pause_and_reflect_will_see_what’s_left_behind;
     word-spacing:2px;
     letter-spacing:2px;;
     perspective: 1000px;
@@ -959,6 +960,10 @@ footer {
     padding: 4rem 2rem;
     text-align: center;
     animation: fadeInUp 1.5s ease-in-out;
+}
+
+.faq-table tr td{
+    padding:1rem;
 }
 
 .faq-section h2 {
