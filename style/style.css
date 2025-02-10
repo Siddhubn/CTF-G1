@@ -33,7 +33,6 @@ header {
     background-blend-mode:difference;
     background-size: cover;
     font-size: 15px;
-    padding: 1rem;
     text-align: right;
     position: fixed;
     width: 100%;
@@ -372,6 +371,15 @@ footer {
 .blog-content h1{
     background: #21211f;
     font-size:36px;
+}
+
+.warning{
+    color:red;
+    background-color:black;
+    text-align: center;
+    font-family:bitter;
+    margin:0px;
+    padding:10px;
 }
 
 .blog-content h1, .blog-content h2 {
@@ -962,8 +970,14 @@ footer {
     animation: fadeInUp 1.5s ease-in-out;
 }
 
+.faq-table{
+    border:2px solid aliceblue;
+    border-color:white;
+}
+
 .faq-table tr td{
     padding:1rem;
+    border:2px solid aliceblue;
 }
 
 .faq-section h2 {
