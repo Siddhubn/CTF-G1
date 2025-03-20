@@ -7,7 +7,7 @@
 Participants must explore various webpages, analyze clues, and locate **hidden codes**. These codes are crucial for uncovering the **final password**, which grants access to the final challenge page. However, beware of **traps**—fake codes that appear legitimate but lack corresponding clues.
 
 ## Wanna Try out the Game:
-[Click Here](siddhubn.github.io/CTF-G1/)
+[Click Here](https://siddhubn.github.io/CTF-G1/)
 
 ## 🕵️ Gameplay
 
